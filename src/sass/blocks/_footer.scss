@@ -1,0 +1,44 @@
+.footer {
+    height: 630px;
+    position: relative;
+    &__map {
+        height: 640px;
+    }
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background: $main-color;
+        border: 1px solid #000000;
+        padding: 50px 68px 60px 68px;
+    }
+    &__addr {
+        margin-bottom: 32px;
+        font-weight: 500;
+        font-size: 17px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__phone {
+        font-weight: 700;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 36px;
+        &:hover {
+            color: white;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        &-item {
+            margin: 0 13px;
+        }
+    }
+}

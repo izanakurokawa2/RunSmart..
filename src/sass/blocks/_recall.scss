@@ -1,0 +1,47 @@
+.recall {
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+        padding-bottom: 60px;
+    }
+    &__main {
+        display: flex;
+        margin-bottom: 60px;
+    }
+    &__icon {
+        padding-right: 60px;
+        height: 100%;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__counter {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__thx {
+        margin-top: 12px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+    &__aim {
+        margin-top: 25px;
+    }
+    &__runsmart {
+        margin-top: 25px;
+    }
+    &__pulsometr {
+        margin-top: 10px;
+    }
+}
